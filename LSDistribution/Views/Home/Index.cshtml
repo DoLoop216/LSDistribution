@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    List<Warehouse> warehouses = Warehouse.List();
+}
+
+<script src="/js/warehouse.js"></script>
+<script>
+    var newWarehouse = new Warehouse(0, "");
+</script>
+
+<div class="warehouses">
+    @foreach (Warehouse wh in warehouses)
+    {
+        <d class="warehouse">
+            <a href="/Warehouse/@wh.ID">
+                <h3 class="name"> [ @wh.ID ] @wh.Name</h3>
+            </a>
+        </d>
+    }
+
+    <div class="newWarehouse">
+        <input placeholder="new warehouse name" onkeyup="newWarehouse.Name = $(this).val()" />
+        <button onclick="newWarehouse.Update()">Add</button>
+    </div>
+</div>

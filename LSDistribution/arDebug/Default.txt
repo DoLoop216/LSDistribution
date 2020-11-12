@@ -1,0 +1,9 @@
+[ 11/12/2020 1:15:28 PM ] System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source, Func`2 selector)
+   at LSDistribution.Models.Warehouse.GetMaxID() in D:\source\repos\LSDistribution\LSDistribution\LSDistribution\Models\Warehouse.cs:line 34
+   at LSDistribution.Models.Warehouse.DBUpdate() in D:\source\repos\LSDistribution\LSDistribution\LSDistribution\Models\Warehouse.cs:line 28
+   at LSDistribution.Controllers.WarehouseController.<>c__DisplayClass0_0.<Add>b__0() in D:\source\repos\LSDistribution\LSDistribution\LSDistribution\Controllers\WarehouseController.cs:line 27
+[ 11/12/2020 1:19:55 PM ] Warehouse with given ID not found. ID: 1
+[ 11/12/2020 1:20:09 PM ] Warehouse with given ID not found. ID: 1
+[ 11/12/2020 1:20:15 PM ] Warehouse with given ID not found. ID: 1

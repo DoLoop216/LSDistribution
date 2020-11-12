@@ -1,0 +1,11 @@
+﻿@model Warehouse
+
+<script src="/js/warehouse.js"></script>
+<script>
+    var warehouse = new Warehouse(@Model.ID, '@Model.Name');
+</script>
+<div class="warehouse">
+    <label>ID: @Model.ID</label>
+    <input type="text" placeholder="Name" value="@Model.Name" onkeyup="warehouse.Name = $(this).val()" />
+    <button onclick="warehouse.Update()">Update</button>
+</div>

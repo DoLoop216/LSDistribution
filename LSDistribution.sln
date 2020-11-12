@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSDistribution", "LSDistribution\LSDistribution.csproj", "{B939789E-C600-4EE3-9BF5-6FA6385B1A7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B939789E-C600-4EE3-9BF5-6FA6385B1A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B939789E-C600-4EE3-9BF5-6FA6385B1A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B939789E-C600-4EE3-9BF5-6FA6385B1A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B939789E-C600-4EE3-9BF5-6FA6385B1A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {012C6E38-B3C3-457E-BA5D-1FD3F7EE96DD}
+	EndGlobalSection
+EndGlobal
